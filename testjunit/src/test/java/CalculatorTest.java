@@ -34,7 +34,7 @@ public class CalculatorTest {
     @Test
     public void sub() {
         System.out.println("sub测试");
-        Assert.assertEquals(1,cal.add(2,1));
+        Assert.assertEquals(3,cal.add(2,1));
     }
 
 }

@@ -29,12 +29,12 @@ public class MyCalculatorTest {
     @MyAfterClass
     public static void ac(){ System.out.println("afterclass");}
 
-    @MyBefore
+    @MyTest
     public void add(){
         System.out.println("add测试");
     }
 
-    @MyAfter
+    @MyTest
     public void sub(){
         System.out.println("sub测试");
     }
